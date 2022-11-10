@@ -1,0 +1,34 @@
+.button-container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gen-button {
+  margin: 10px;
+  border-radius: 50px;
+  height: 50px;
+  border: black solid;
+  width: auto;
+  padding: 10px;
+}
+.poke-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-display-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.poke-display {
+  border: black solid 2px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}

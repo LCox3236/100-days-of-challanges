@@ -1,0 +1,78 @@
+:root {
+  --mood-color-1: #2d6b5f;
+  --mood-color-2: #72e3a6;
+  --mood-color-3: #dff4c7;
+  --mood-color-4: #edbf98;
+  --mood-color-5: #ea3d36;
+}
+header,
+p {
+  text-align: center;
+}
+
+.mood-container {
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.moods {
+  display: flex;
+  align-self: center;
+}
+.mood {
+  background-color: #fff;
+  border: 0;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 30px;
+  padding: 0;
+  margin: 0 5px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+.mood_1 {
+  color: var(--mood-color-1);
+}
+
+.mood_2 {
+  color: var(--mood-color-2);
+}
+
+.mood_3 {
+  color: var(--mood-color-3);
+}
+
+.mood_4 {
+  color: var(--mood-color-4);
+}
+
+.mood_5 {
+  color: var(--mood-color-5);
+}
+
+.mood.selected {
+  background-color: currentColor;
+}
+
+.mood.selected i {
+  color: #fff;
+}
+
+.mood:active {
+  transform: scale(0.9);
+}
+
+.mood:focus {
+  outline: 0;
+}
+
+.mood i {
+  cursor: pointer;
+}

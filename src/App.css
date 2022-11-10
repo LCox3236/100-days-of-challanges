@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#home-link {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+#toggle-routes-button {
+  height: 40px;
+  width: 40px;
+  color: black;
+  font-size: 24px;
+}
+
+#routes-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.route-container {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+
+  color: black;
+}
+.route-link {
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 10px;
+  color: black;
+}
+.route-image {
+  padding-bottom: 10px;
+}

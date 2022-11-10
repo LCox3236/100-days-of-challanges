@@ -1,0 +1,45 @@
+.calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.months {
+  width: 260px;
+  border: 1px solid;
+  margin: 10px;
+  text-align: center;
+}
+.days_container,
+.week_days_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.days,
+.week_days {
+  font-size: 14px;
+  margin-bottom: 5px;
+  height: calc(100% / 7);
+  width: calc(100% / 7);
+  text-align: center;
+}
+
+.days .circle {
+  background-color: #888;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.days .circle:hover {
+  transform: scale(1.1);
+}
