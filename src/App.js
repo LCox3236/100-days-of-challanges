@@ -16,6 +16,16 @@ import MoodCal from "./Pages/002MoodCal/MoodCal";
 import InsectGame from "./Pages/003InsectGame/InsectGame";
 import Profile from "./Pages/004Profile/Profile";
 import Pokedex from "./Pages/005Pokedex/Pokedex";
+import TypeGame from "./Pages/006TypingGame/TypingGame";
+
+import {
+  mealGenIcon,
+  moodCalIcon,
+  pokedexIcon,
+  typingGameIcon,
+  placeholderIcon,
+} from "./images";
+
 export default function App() {
   const projects = [
     // {
@@ -28,31 +38,43 @@ export default function App() {
       nr: "001",
       displayName: "Random Meal Generator",
       element: <MealGen />,
+      icon: mealGenIcon,
       path: "/Pages/001MealGen/MealGen",
     },
     {
       nr: "002",
       displayName: "2019 Mood Calendar",
       element: <MoodCal />,
+      icon: moodCalIcon,
       path: "/Pages/002MoodCal/MoodCal",
     },
     {
       nr: "003",
       displayName: "Insect Game",
       element: <InsectGame />,
+      icon: placeholderIcon,
       path: "/Pages/003InsectGame/InsectGame",
     },
     {
       nr: "004",
       displayName: "User Profile Design",
       element: <Profile />,
+      icon: placeholderIcon,
       path: "/Pages/004Profile/Profile",
     },
     {
       nr: "005",
       displayName: "Pokedex",
       element: <Pokedex />,
+      icon: pokedexIcon,
       path: "/Pages/005Pokedex/Pokedex",
+    },
+    {
+      nr: "006",
+      displayName: "TypingGame",
+      element: <TypeGame />,
+      icon: typingGameIcon,
+      path: "/Pages/006TypingGame/TypingGame",
     },
   ];
 
@@ -111,8 +133,9 @@ export default function App() {
 
                 <img
                   className="route-image"
-                  src="https://picsum.photos/200"
+                  src={project.icon}
                   alt="placeholder image"
+                  width="200px"
                 />
               </Link>
             );
