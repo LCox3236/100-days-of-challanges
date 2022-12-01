@@ -1,0 +1,22 @@
+.hover-board-container {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}

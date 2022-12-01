@@ -17,6 +17,7 @@ import InsectGame from "./Pages/003InsectGame/InsectGame";
 import Profile from "./Pages/004Profile/Profile";
 import Pokedex from "./Pages/005Pokedex/Pokedex";
 import TypeGame from "./Pages/006TypingGame/TypingGame";
+import HoverBoard from "./Pages/007HoverBoard/HoverBoard";
 
 import {
   mealGenIcon,
@@ -32,6 +33,7 @@ export default function App() {
     //   nr: "000",
     //   displayName: "",
     //   element: "",
+    //   icon: placeholderIcon,
     //   path: "/Pages/",
     // },
     {
@@ -75,6 +77,13 @@ export default function App() {
       element: <TypeGame />,
       icon: typingGameIcon,
       path: "/Pages/006TypingGame/TypingGame",
+    },
+    {
+      nr: "007",
+      displayName: "HoverBoard",
+      element: <HoverBoard />,
+      icon: placeholderIcon,
+      path: "/Pages/007HoverBoard/HoverBoard",
     },
   ];
 
