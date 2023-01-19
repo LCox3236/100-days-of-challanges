@@ -61,11 +61,12 @@ p {
 .route-container {
   display: flex;
   flex-direction: column-reverse;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;
   font-size: large;
   text-align: center;
-
+  border: 1px solid;
+  margin: 5px;
   color: black;
 }
 .route-link {
@@ -77,4 +78,5 @@ p {
 }
 .route-image {
   padding-bottom: 10px;
+  margin: auto;
 }

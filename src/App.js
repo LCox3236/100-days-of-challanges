@@ -18,13 +18,17 @@ import Profile from "./Pages/004Profile/Profile";
 import Pokedex from "./Pages/005Pokedex/Pokedex";
 import TypeGame from "./Pages/006TypingGame/TypingGame";
 import HoverBoard from "./Pages/007HoverBoard/HoverBoard";
+import KeyCodes from "./Pages/008KeyCodes/KeyCodes";
+import ExchangeRate from "./Pages/009ExchangeRateConverter/ExchangeRate";
 
 import {
+  placeholderIcon,
   mealGenIcon,
   moodCalIcon,
   pokedexIcon,
   typingGameIcon,
-  placeholderIcon,
+  KeyCodesIcon,
+  hoverBoardIcon,
 } from "./images";
 
 export default function App() {
@@ -52,14 +56,14 @@ export default function App() {
     },
     {
       nr: "003",
-      displayName: "Insect Game",
+      displayName: "Insect Game (WIP)",
       element: <InsectGame />,
       icon: placeholderIcon,
       path: "/Pages/003InsectGame/InsectGame",
     },
     {
       nr: "004",
-      displayName: "User Profile Design",
+      displayName: "User Profile Design (WIP)",
       element: <Profile />,
       icon: placeholderIcon,
       path: "/Pages/004Profile/Profile",
@@ -73,7 +77,7 @@ export default function App() {
     },
     {
       nr: "006",
-      displayName: "TypingGame",
+      displayName: "Typing Game",
       element: <TypeGame />,
       icon: typingGameIcon,
       path: "/Pages/006TypingGame/TypingGame",
@@ -82,8 +86,22 @@ export default function App() {
       nr: "007",
       displayName: "HoverBoard",
       element: <HoverBoard />,
-      icon: placeholderIcon,
+      icon: hoverBoardIcon,
       path: "/Pages/007HoverBoard/HoverBoard",
+    },
+    {
+      nr: "008",
+      displayName: "Key Codes",
+      element: <KeyCodes />,
+      icon: KeyCodesIcon,
+      path: "/Pages/008KeyCodes/KeyCodes",
+    },
+    {
+      nr: "009",
+      displayName: "Exchange Rate Converter",
+      element: <ExchangeRate />,
+      icon: placeholderIcon,
+      path: "/Pages/009/ExchangeRateConverter/ExchangeRate",
     },
   ];
 
