@@ -1,3 +1,6 @@
+This is A number of challenges found on https://www.florin-pop.com/blog/2019/09/100-days-100-projects/. I am not aiming to complete all 100 projects but insted using these as a guide to further my experence with ReactJS and other libraries such as react router.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
