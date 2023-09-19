@@ -1,4 +1,16 @@
-This is A number of challenges found on https://www.florin-pop.com/blog/2019/09/100-days-100-projects/. I am not aiming to complete all 100 projects but insted using these as a guide to further my experence with ReactJS and other libraries such as react router.
+This is A number of challenges found on https://www.florin-pop.com/blog/2019/09/100-days-100-projects/. I am not aiming to complete all 100 projects but instead using these as a guide to further my experience with ReactJS and other libraries such as React Router.
+
+Homepage
+![challenges home](https://github.com/LCox3236/100-days-of-challanges/assets/83649281/2eb7bf53-cacc-4002-9f5f-e0c2cd8f5383)
+
+
+Mood Calander
+![challenges calendar](https://github.com/LCox3236/100-days-of-challanges/assets/83649281/44215e5f-35f9-4b19-be37-2df96897483d)
+
+
+Typing Game
+![chalanges typing](https://github.com/LCox3236/100-days-of-challanges/assets/83649281/718d4926-9510-4e00-b34c-3800b18e72d3)
+
 
 
 # Getting Started with Create React App
